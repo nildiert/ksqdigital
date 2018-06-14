@@ -1,4 +1,4 @@
-SELECT i.InsCodigo,i.InsNombre,i.InsPrecio as UltimoPrecio,pi.ProvinsPrecio PrecioProveedor , 
+SELECT i.InsCodigo,i.InsNombre,i.InsPrecio, as UltimoPrecio,i.InsEstado pi.ProvinsPrecio PrecioProveedor , 
 p.ProvCodigo, p.ProvNombre, ic.Ordencompra_OrdComId, oc.OrdComFecha, oc.OrdComEstado, po.Productos_ProCodigo,
 pt.ProNombre,pt.ProPresentacion, pt.ProDescripcion, op.OrdPId,op.OrdPFecha,op.OrdPAsignada,op.OrdPCant,op.OrdPObservaciones,
 c.Cliid,c.CliNombre,c.CliTelefono,c.CliDireccion
